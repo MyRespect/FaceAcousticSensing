@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="audio_source_entries">
+        <item>RECOG (clean signal)</item>>
+        <item>MIC (both mics)</item>>
+        <item>CAM</item>
+    </string-array>
+    <string-array name="audio_source_mode_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+    <string-array name="mode_entries">
+        <item>Remote</item>>
+        <item>Standalone</item>>
+    </string-array>
+    <string-array name="mode_values">
+        <item>0</item>
+        <item>1</item>
+    </string-array>
+    <bool name="pref_defaultAutomatic">false</bool>
+    <string name="app_name">LibAcousticSensingLibrary</string>
+    <string name="pref_audioSource">AudioSource</string>
+    <string name="pref_audioSourceDescription">AudioSource controls how the audio can be recorded</string>
+    <string name="pref_automatic">Autostart</string>
+    <string name="pref_autostartDescription">If checked, the app will re-establish a connection if it is closed.</string>
+    <string name="pref_defaultAudioSource">0</string>
+    <string name="pref_defaultMode">Remote Mode</string>
+    <string name="pref_defaultPort">50005</string>
+    <string name="pref_defaultServer">10.0.0.12</string>
+    <string name="pref_mode">Mode</string>
+    <string name="pref_modeDescription">Mode of operation</string>
+    <string name="pref_port">Port</string>
+    <string name="pref_portDescription">Port of the server. Please refer to Matlab script for the port.</string>
+    <string name="pref_server">Server</string>
+    <string name="pref_serverDescription">The IP address of the server. Use the LAN address if possible.</string>
+</resources>
